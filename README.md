@@ -6,9 +6,12 @@ A voice training app that helps users speak with confidence by analyzing their s
 
 - Real-time speech analysis using **Vertex AI / Gemini**
 - Transcription and TTS feedback via **ElevenLabs**
-- Tracks core metrics:  
-  - Filler words  
-  - Pitch / voice shakiness  
-  - Speaking pace  
+- Tracks core voice metrics:  
+  - Filler words
+  - Pitch
+  - Shakiness  
+  - Speaking pace
+  - Shimmer
+  - Pauses
 - Personalized exercises to improve confidence and authority in speech
 - Dashboard to monitor progress over time
