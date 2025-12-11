@@ -19,15 +19,6 @@ elevenlabs = ElevenLabs(
 def get_transcript(audio_path):
     with open(audio_path, "rb") as f:
         audio_data = BytesIO(f.read())
-        
-    # headers = {
-    #     "xi-api-key": ELEVENLABS_API_KEY,
-    # }
-    # files = {"file": audio_data}
-    # response = requests.post(ELEVENLABS_STT_URL, headers=headers, files=files)
-    # response.raise_for_status()
-    # data = response.json()
-    # return data.get("text")
     
     transcription = elevenlabs.speech_to_text.convert(
         file=audio_data,
